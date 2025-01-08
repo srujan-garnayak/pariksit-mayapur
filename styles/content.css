@@ -1,0 +1,68 @@
+.writing-content{
+    background-color: rgb(255, 255, 255);
+    height: 1000px;
+}
+
+.content{
+    display: flex;
+    position: relative;
+    
+}
+
+.img-1 {
+    display: block; /* Makes the image behave like a block */
+    margin:0px;
+    width: 1263.33px; /* Optional: Adjust image size */
+    height: auto; /* Maintain aspect ratio */
+
+    border-style: none;
+    border-radius: 5px;
+    border-color: white;
+
+}
+
+.buy-button{
+    position: absolute; /* Places button over the image */
+    bottom: 5%; /* Distance from the bottom of the container */
+    left: 50%; /* Horizontally centers the button */
+    transform: translateX(-50%); /* Adjusts for perfect centering */
+    background-color: rgba(0, 123, 255, 0.7); /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Removes border */
+    padding: 10px 30px; /* Button size */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover effect */
+}
+
+.buy-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateX(-50%) scale(1.1); /* Slightly enlarges the button */
+}
+
+.content-photo-1{
+    width: 400px;
+    height: 610px;
+    margin-left: 20px;
+    margin-top: 50PX;
+
+    color: white;
+    background-color: rgba(50, 50, 50, 0.6);
+
+    position: absolute;
+    right: 0;
+
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+}
+
+.content-photo-1 p{
+    margin-left: 40px;
+    padding-top: 80px;
+    padding-left: 10px;
+}
+
+.unordered-list{
+    margin-left: 30px;
+}

@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    color: black;
+    
+    justify-content: space-between;
+    padding: 5px 30px;
+    column-gap: 700px;
+
+    /* border-bottom-style: solid;
+    border-bottom-color: grey;
+    border-width: 1.5px; */
+
+}
+
+
+
+.logo{
+    color: rgb(0, 32, 160);
+    font-weight: 700;
+    font-size: 70px;
+    font-family: Tangerine;
+    background-image: linear-gradient(rgb(154, 0, 0), blue);
+    color: transparent;
+    background-clip: text;
+
+    width: 400px;
+
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0px 0px 3px rgba(28, 160, 2, 0.7); */
+}
+
+.logo p{
+    font-size: 12px;
+    font-family: "Playwrite AU SA", serif;
+    margin-left: 100px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+
+.logo p span{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.right-section{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    grid-template-columns: 120px 120px 120px 120px 120px;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+@media(max-width: 856px){
+    .right-section{
+        grid-template-columns: 1fr  1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 857px) and (max-width:999px){
+    .right-section{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+@media(min-width: 1000px){
+    .right-section{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+.right-section a{
+    position: relative;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+
+    font-size: 18px;
+
+
+    width: 120px;
+    height: 40px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    place-content: center;
+    column-gap: 80px;
+    transition: 0.3s;
+}
+
+.right-section a:hover{
+    font-size: 22px;
+}
+
+.right-section a button{
+    transition: transform 0.3s ease;
+}
+
+.right-section a button:hover{
+    transform: scale(1.2);
+}
+
+.right-section a button{
+    background-color: rgb(0, 123, 255);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right-section a button:hover{
+    opacity: 0.8;
+}
+
+.right-section a button:active{
+    background-color: white;
+    color: rgb(0, 123, 255);
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(2, 42, 150);
+}
+
+.right-section a:active{
+    color: lightblue;
+    background-image: linear-gradient(rgb(154, 0, 0), blue);
+        color: transparent;
+        background-clip: text;
+}
