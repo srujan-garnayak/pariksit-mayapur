@@ -6,16 +6,21 @@
     padding: 5px 30px;
     column-gap: 700px;
 
+    position: sticky;
+
     /* border-bottom-style: solid;
     border-bottom-color: grey;
     border-width: 1.5px; */
 
+    background: linear-gradient(45deg, #98fff1, #f6fbb0, #9effa2);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
 
-.logo{
-    color: rgb(0, 32, 160);
+.logo a{
+    
     font-weight: 700;
     font-size: 70px;
     font-family: Tangerine;
@@ -25,14 +30,17 @@
 
     width: 400px;
 
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.6);
+    text-decoration: none;
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5), 0px 0px 3px rgba(28, 160, 2, 0.7); */
 }
 
 .logo p{
+    color: rgb(0, 32, 160);
     font-size: 12px;
     font-family: "Playwrite AU SA", serif;
     margin-left: 100px;
-    margin-top: -10px;
+    margin-top: -18px;
     margin-bottom: 0px;
 }
 
@@ -44,12 +52,16 @@
 
 .right-section{
     display: grid;
-    text-align: center;
-    align-items: center;
-    grid-template-columns: 120px 120px 120px 120px 120px;
+    /* text-align: center;
+    align-items: center; */
+    place-content: center;
+
+    /* grid-template-columns: 10px 10px 10px 10px 10px 10px;
+    column-width: 10px; */
+
     position: absolute;
     right: 0;
-    top: 30px;
+    top: 25px;
 }
 
 @media(max-width: 856px){
@@ -60,13 +72,13 @@
 
 @media(min-width: 857px) and (max-width:999px){
     .right-section{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
     }
 }
 
 @media(min-width: 1000px){
     .right-section{
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns:  1fr 1fr 1fr 1fr 1fr;
     }
 }
 
@@ -80,17 +92,18 @@
     font-size: 18px;
 
 
-    width: 120px;
+    width: 100px;
     height: 40px;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
     place-content: center;
-    column-gap: 80px;
+    column-gap: -10px;
     transition: 0.3s;
 }
 
 .right-section a:hover{
     font-size: 22px;
+    margin: 0;
 }
 
 .right-section a button{
@@ -121,7 +134,7 @@
     color: rgb(0, 123, 255);
     border-style: solid;
     border-radius: 20px;
-    border-color: rgb(2, 42, 150);
+    border-color: rgb(0, 123, 255);
 }
 
 .right-section a:active{

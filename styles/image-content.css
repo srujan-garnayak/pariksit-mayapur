@@ -1,0 +1,86 @@
+.title{
+    text-align: center;
+    
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    text-decoration: underline;
+
+    text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.image-content{
+
+    display: flex;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.exact-img{
+    margin-left: 20px;
+}
+
+.radha-madhav{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-style: none;
+    
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.narasimhadev{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.exact-image-info{
+    margin-left: 30px;
+    font-family: Roboto;
+    font-weight: 500;
+
+    padding: 10px;
+    border-radius: 10px;
+
+    background: linear-gradient(160deg, #fff3b5, #fafafa, #fff3b5);
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+    /* background-attachment: fixed; */
+}
+
+.narasimhadev-bold{
+    font-size: 24px;
+}
+
+.pancha-tattva{
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.pancha-tattva-bold{
+    font-size: 24px;
+}
+
+.srila-prabhupada{
+    width:350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
+}
+
+.srila-prabhupada-bold{
+    font-size: 24px;
+}

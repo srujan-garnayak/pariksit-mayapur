@@ -1,0 +1,56 @@
+.prayers{
+    background: linear-gradient(180deg, #ffffff, #fafafa, #ffeb84);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.prayers-title h1{
+    text-shadow: 0px 6px 20px rgba(0, 0, 0, 0.6);
+}
+
+.prayers-top-obeisances{
+    font-weight: 500;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.prayers-title {
+    text-align: center;
+    text-decoration: underline;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 30px;
+}
+
+.prayer-info h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 50px ;
+    margin-left: 30px;
+}
+
+.prayer-description{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 17px;
+}
+
+.translation{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.translation-description{
+    font-family: Montserrat, serif;
+    margin: 20px;
+}
+
+.translation-description ol{
+    margin: 0;
+}
+
+.translation-description ol li{
+    margin-bottom: 20px;
+}

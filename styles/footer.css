@@ -1,0 +1,42 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: linear-gradient(90deg, #070046, #0079ca, #003c80);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    font-family: Montserrat;
+}
+
+.motto{
+    width: 250px;
+}
+
+.motto h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Tangerine;
+    background-image: linear-gradient(rgb(154, 0, 0), yellow);
+    color: transparent;
+    background-clip: text;
+    font-size: 60px;
+}
+
+.motto p{
+    margin-top: 0px;
+}
+
+.motto p .copyright{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.visit{
+    width: 250px;
+}
+
+.contact{
+    width: 250px;
+}
