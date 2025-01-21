@@ -1,7 +1,7 @@
 .writing-content{
     background-color: rgb(255, 255, 255);
     
-
+    margin-top: 110px;
     /* background: linear-gradient(45deg, #98fff1, #f6fbb0, #9effa2);
     background-repeat: no-repeat; */
     /* background-attachment: fixed; */
@@ -18,6 +18,7 @@
     margin:0px;
     width: 100%; /* Optional: Adjust image size */
     height: auto; /* Maintain aspect ratio */
+
 
     border-style: none;
     border-radius: 5px;

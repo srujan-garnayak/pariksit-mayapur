@@ -1,12 +1,18 @@
 .header{
     display: flex;
     color: black;
+    width: 100%;
     
     justify-content: space-between;
     padding: 5px 30px;
     column-gap: 700px;
 
-    position: sticky;
+    position: fixed;
+    z-index: 1000; 
+    top: 0;
+
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
 
     /* border-bottom-style: solid;
     border-bottom-color: grey;
@@ -15,6 +21,13 @@
     background: linear-gradient(45deg, #98fff1, #f6fbb0, #9effa2);
     background-repeat: no-repeat;
     background-attachment: fixed;
+
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+
+    /* background: transparent;
+    backdrop-filter: blur(15px);
+    border-radius: 10px; */
+
 }
 
 
